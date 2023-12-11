@@ -1,13 +1,13 @@
 import React from 'react';
 import './Banner.css'
 import { FaDownload } from "react-icons/fa6";
-import img from '../../../assets/images/my_photo.png'
+import img from '../../../assets/images/photo.png'
 import TechStack from '../../techStack/TechStack';
 const Banner = () => {
     return (
-        <div className="hero border-b min-h-[70vh]">
-  <div className="hero-content w-full flex-col lg:justify-between lg:flex-row-reverse">
-   <div className="w-11/12 lg:w-1/2 flex justify-center  items-end ">
+        <div className="hero  min-h-[70vh]">
+  <div className="hero-content w-full flex-col lg:justify-between lg:flex-row">
+   <div className="w-11/12 lg:w-1/2 flex justify-center items-end ">
     <img src={img} className=" relative -mb-4" />
    </div> 
     <div className=" w-11/12 lg:w-1/2 items-start">
