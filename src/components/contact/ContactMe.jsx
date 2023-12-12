@@ -53,9 +53,9 @@ const ContactMe = () => {
 
     </div>
     <div className='flex my-10' >
-    <FaFacebookF className='bg-blue-500 text-white p-2 mx-2 w-[45px] h-[45px] rounded-full' /> 
-    <FaLinkedinIn className='bg-blue-700 text-white p-2 mx-2 w-[45px] h-[45px] rounded-sm' /> 
-    <FaGithub  className='bg-gray-700 text-white p-2 mx-2 w-[45px] h-[45px] rounded-full' /> 
+   <a href="https://www.facebook.com/tahsin.aubonee/" target="_blank" rel="noopener noreferrer"><FaFacebookF className='bg-blue-500 text-white p-2 mx-2 w-[45px] h-[45px] rounded-full' /> </a> 
+  <a href="https://www.linkedin.com/in/tahsinaubonee-07aa39217/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='bg-blue-700 text-white p-2 mx-2 w-[45px] h-[45px] rounded-sm' /></a>   
+  <a href="https://github.com/aubonee" target="_blank" rel="noopener noreferrer"><FaGithub  className='bg-gray-700 text-white p-2 mx-2 w-[45px] h-[45px] rounded-full' /> </a>  
     </div>
   </div>
 </div>

@@ -8,16 +8,16 @@ import 'aos/dist/aos.css';
 
 const AboutMe = () => {
     return (
-        <div id='aboutme' className=' banner mx-auto  w-full text-white' data-aos="fade-left"
-        data-aos-anchor="#example-anchor"
-        data-aos-offset="500"
-        data-aos-duration="500">
+        <div id='aboutme' className=' banner mx-auto  w-full text-white' >
             <div className="hero min-h-[60vh]" style={{backgroundImage: 'url(https://i.ibb.co/mDFp8xS/2.png)'}}>
   
   <div className='bg-opacity-40'>
                
-              <SectionTitle heading="About Me" subHeading="A Glimpse into My Creative Journey"></SectionTitle>
-                <div className="flex flex-col lg:flex-row hero-content justify-between text-center lg:text-left">
+            <div data-aos="fade-rightt"><SectionTitle heading="About Me" subHeading="A Glimpse into My Creative Journey"></SectionTitle></div>  
+                <div data-aos="fade-up"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="1500"
+        data-aos-duration="1500" className="flex flex-col lg:flex-row hero-content justify-between text-center lg:text-left">
                 <div className='w-1/2 md:w-11/12 lg:w-11/12'>
                     <h1 className='text-3xl mb-5 pb-5 font-semibold'>Frontend Web Developer</h1>
                     <p>

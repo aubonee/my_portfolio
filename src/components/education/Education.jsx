@@ -8,7 +8,8 @@ import 'aos/dist/aos.css';
 const Education = () => {
     return (
         <div  data-aos="fade-up"
-        data-aos-duration="3000" id='education' className='mb-10'>
+     
+        data-aos-duration="1500" id='education' className='mb-10'>
             <SectionTitle2 heading="Education" subHeading="My Educational Journey from School to University"></SectionTitle2>  
             
             <div className='flex justify-center items-center'>

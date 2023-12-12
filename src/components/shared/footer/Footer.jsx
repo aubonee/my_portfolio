@@ -26,9 +26,9 @@ const Footer = () => {
     <p className='text-xl py-2'> <span className='font-semibold'>Email:</span> chytahsin.2210@gmail.com</p>
                         <p className='text-xl py-2'> <span className='font-semibold'>Address: Nandakanon, Chattogram</span></p>
     <div className="grid grid-flow-col gap-4">
-      <a><FaGithub  className='bg-gray-700 text-white p-2 mx-2 w-[40px] h-[40px] rounded-full' /> </a>
-      <a><FaLinkedinIn className='bg-gray-700 text-white p-2 mx-2 w-[40px] h-[40px] rounded-full' /></a>
-      <a> <FaFacebookF className='bg-gray-700 text-white p-2 mx-2 w-[40px] h-[40px] rounded-full' /> </a>
+      <a href="https://github.com/aubonee" target="_blank" rel="noopener noreferrer" ><FaGithub  className='bg-gray-700 text-white p-2 mx-2 w-[40px] h-[40px] rounded-full' /> </a>
+      <a href="https://www.linkedin.com/in/tahsinaubonee-07aa39217/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='bg-gray-700 text-white p-2 mx-2 w-[40px] h-[40px] rounded-full' /></a>
+      <a href="https://www.facebook.com/tahsin.aubonee/" target="_blank" rel="noopener noreferrer"> <FaFacebookF className='bg-gray-700 text-white p-2 mx-2 w-[40px] h-[40px] rounded-full' /> </a>
     </div>
   </nav>
 </footer>
