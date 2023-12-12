@@ -2,10 +2,13 @@ import React from 'react';
 
 import { IoSchoolSharp } from "react-icons/io5";
 import SectionTitle2 from '../shared/sectionTitle/SectionTitle2';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Education = () => {
     return (
-        <div className='mb-10'>
+        <div  data-aos="fade-up"
+        data-aos-duration="3000" id='education' className='mb-10'>
             <SectionTitle2 heading="Education" subHeading="My Educational Journey from School to University"></SectionTitle2>  
             
             <div className='flex justify-center items-center'>
@@ -13,9 +16,10 @@ const Education = () => {
   <li>
     <div className="timeline-start timeline-box md:w-[300px] lg:w-[500px] bg-[#1f1e1f] text-white py-10 px-5">
     <div>
-        <i className="fas fa-2x fa-graduation-cap">University</i>
-        <p>Institute:International Islamic University Chittagong</p>
-        <p>Doing my B.Sc. in Computer Science and Engineering</p>
+        <p> 2019-2023(ongoing)</p>
+        <h1 className="font-semibold text-2xl">B.Sc. in Computer Science and Engineering</h1>
+        <p className='my-2'> <span className='text-bold'>Institute:</span>International Islamic University Chittagong</p>
+      
     </div>
 
     </div>
@@ -34,21 +38,25 @@ const Education = () => {
     </div>
     <div className="timeline-end timeline-box md:w-[300px] lg:w-[500px] bg-[#1f1e1f] text-white py-10 px-2">
     <div>
-        <p className="fas fa-2x fa-graduation-cap">College</p>
-        <p>Institute:Girls's College ,Chattogram</p>
-        <p>HSC,2018</p>
+        <p> 2018</p>
+        <h1 className="font-semibold text-2xl">H.S.C</h1>
+        <p className='my-2'> <span className='text-bold'>Institute :</span>Girls's College ,Chattogram</p>
+      
     </div>
+    
     </div>
     <hr/>
   </li>
   <li>
     <hr/>
     <div className="timeline-start timeline-box md:w-[300px] lg:w-[500px] bg-[#1f1e1f] text-white py-10 px-2">
-   
-    <div><i className="fas fa-2x fa-graduation-cap">School</i>
-    <p>Institute:Krishna Kumari City Corporation Girls' High School</p>
-    <p>SSC,2016</p>
+    <div>
+        <p> 2016</p>
+        <h1 className="font-semibold text-2xl">S.S.C</h1>
+        <p className='my-2'> <span className='text-bold'>Institute :</span>Krishna Kumari City Corporation Girls' High School, Chattogram</p>
+      
     </div>
+    
 
 
     </div>

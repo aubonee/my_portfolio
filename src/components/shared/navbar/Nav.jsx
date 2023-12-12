@@ -1,13 +1,13 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import './Nav.css'
 
 const Nav = () => {
   const navItems =<>
-    <li><a>Home</a></li>
-      <li><a>About</a></li>
-      <li><a>Education</a></li>
-      <li><a>Projects</a></li>
-      <li><a>Skills</a></li>
+    <li><a href='#home'>Home</a></li>
+      <li><a href='#aboutme'>About</a></li>
+      <li><a href='#education'>Education</a></li>
+      <li><a href='#projects'>Projects</a></li>
+      <li><a href='#skills'>Skills</a></li>
       
       <li><a href='#contactme'>Contact me</a></li>
     
@@ -29,7 +29,7 @@ const Nav = () => {
   </div>
 </div>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className=" logo-font text-[#95262a] font-semibold text-xl">TahsinAubonee<span className='font-bold text-2xl'>.</span></a>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

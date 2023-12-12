@@ -4,6 +4,7 @@ import js from '../../assets/images/js.png'
 import html from '../../assets/images/download (1).png'
 import css from '../../assets/images/css.svg'
 import react from '../../assets/images/react2.png'
+import mongodb from '../../assets/images/mongodb.jpg'
 import tailwind from '../../assets/images/tailwind.webp'
 
 
@@ -18,10 +19,10 @@ const TechStack = () => {
             <div className='w-[50px] mx-2' ><img src={html} alt="" /></div>
             <div className='w-[50px] mx-2'><img src={css} alt="" /></div>
             <div className='w-[50px] mx-2'><img src={js} alt="" /></div>
-            
             <div className='w-[50px] mx-2'><img src={tailwind} alt="" /></div>
             <div className='w-[50px] mx-2'><img src={react} alt="" /></div>
             <div className='w-[50px] mx-2'><img src={nodejs} alt="" /></div>
+            <div className='w-[50px] mx-2'><img src={mongodb} alt="" /></div>
 
         </div>
         </div>

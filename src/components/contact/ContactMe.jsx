@@ -4,6 +4,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ContactMe = () => {
   const form = useRef();
@@ -19,12 +21,14 @@ const ContactMe = () => {
       });
   };
     return (
-        <div id='contactme'>
+        <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000" id='contactme'>
             <div className="hero min-h-screen bg-[#1f1e1f]">
   <div className="hero-content w-full flex-col items-center justify-center">
     <div className="text-center ">
 
-      <h1 className="text-5xl text-white font-bold">Contact Me</h1>
+      <h1  className="text-5xl text-white font-bold">Contact Me</h1>
       <p className="py-6 text-white">Please fill out the form below to discuss any work opportunities.</p>
     </div>
     <div className=" w-full md:w-5/6 lg:w-9/12 ">
