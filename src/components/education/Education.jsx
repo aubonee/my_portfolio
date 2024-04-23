@@ -16,10 +16,10 @@ const Education = () => {
             <ul className="flex flex-col md:timeline md:timeline-vertical">
   <li>
     <div className="timeline-start timeline-box md:w-[300px] lg:w-[500px] bg-[#1f1e1f] text-white py-10 px-5">
-    <div>
-        <p> 2019-2023(ongoing)</p>
-        <h1 className="font-semibold text-2xl">B.Sc. in Computer Science and Engineering</h1>
-        <p className='my-2'> <span className='text-bold'>Institute:</span>International Islamic University Chittagong</p>
+    <div className='pl-3'>
+        <p> 2019-2023</p>
+        <h1 className=" text-xl text-yellow-500"><span className='font-semibold text-2xl font-serif'>B.Sc. </span> in Computer Science and Engineering</h1>
+        <p className='my-2'> <span className='font-semibold'></span>From  International Islamic University Chittagong</p>
       
     </div>
 
@@ -38,10 +38,10 @@ const Education = () => {
       <IoSchoolSharp className='text-white' />
     </div>
     <div className="timeline-end timeline-box md:w-[300px] lg:w-[500px] bg-[#1f1e1f] text-white py-10 px-2">
-    <div>
+    <div className='pl-3'>
         <p> 2018</p>
-        <h1 className="font-semibold text-2xl">H.S.C</h1>
-        <p className='my-2'> <span className='text-bold'>Institute :</span>Girls's College ,Chattogram</p>
+        <h1 className="font-semibold font-serif text-2xl text-yellow-500">H.S.C</h1>
+        <p className='my-2'> <span className='font-semibold'></span>From Girls's College ,Chattogram</p>
       
     </div>
     
@@ -51,10 +51,10 @@ const Education = () => {
   <li>
     <hr/>
     <div className="timeline-start timeline-box md:w-[300px] lg:w-[500px] bg-[#1f1e1f] text-white py-10 px-2">
-    <div>
+    <div className='pl-3'>
         <p> 2016</p>
-        <h1 className="font-semibold text-2xl">S.S.C</h1>
-        <p className='my-2'> <span className='text-bold'>Institute :</span>Krishna Kumari City Corporation Girls' High School, Chattogram</p>
+        <h1 className="font-semibold font-serif text-2xl text-yellow-500">S.S.C</h1>
+        <p className='my-2'> <span className='font-semibold'></span>From Krishna Kumari City Corporation Girls' High School, Chattogram</p>
       
     </div>
     
